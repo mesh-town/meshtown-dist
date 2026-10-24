@@ -1,0 +1,24 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Mesh Town
+Label: Mesh Town
+Suite: stable
+Codename: stable
+Date: Sat, 24 Oct 2026 07:36:50 GMT
+Architectures: amd64 arm64
+Components: main
+Description: Mesh Town packages
+Acquire-By-Hash: yes
+SHA256:
+ 3405202b7ac7022130eef4b8fc5120520447bdd2acb22dd4bf18b70e49b6a271 933 main/binary-amd64/Packages
+ efc23fbb560003ce8a5fb8b0ed6ed2a26eb7cf3cbce6612ad3201c43954cc25b 401 main/binary-amd64/Packages.gz
+ 5f781c6f01158db92feb70893f7f8801a1e1de203c11af6e7fd71ce74e4a973b 933 main/binary-arm64/Packages
+ 3a4ac4baddf5c633fc88070cd743da2eba3e2482ced4d65f001a1d2b0aa6e640 405 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQRmh/Cr4935Y23FPisjeNAgti7tuwUCatxgEwAKCRAjeNAgti7t
+u1uZAP9AgpklV3SAc20tCynOtbeztnS3eW4u4yjQXjueQh+vCQD+KFLBGumb6+HH
+OzmsTJLEsd5AgsKkeZDR/pl5COVZhQs=
+=3hTG
+-----END PGP SIGNATURE-----

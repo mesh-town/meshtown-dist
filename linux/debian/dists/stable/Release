@@ -1,0 +1,14 @@
+Origin: Mesh Town
+Label: Mesh Town
+Suite: stable
+Codename: stable
+Date: Fri, 30 Oct 2026 07:51:55 GMT
+Architectures: amd64 arm64
+Components: main
+Description: Mesh Town packages
+Acquire-By-Hash: yes
+SHA256:
+ 5b10aef56187b878d8b308f7471ad124141e254033033e5687b03775851d3b34 1895 main/binary-amd64/Packages
+ e8d2d167dec3b2a8ce4c1d6c46bebac157dd68ae0abcfa7ebf747d732bc4b754 529 main/binary-amd64/Packages.gz
+ 55bc3784717232fda4c186ebbfab999edb1c40821b0eea716e791dc0ceaf357f 1895 main/binary-arm64/Packages
+ e519212f2a6e1176905708f4e2293d550fbfd950a2cd40cfffba7c68680f6530 528 main/binary-arm64/Packages.gz

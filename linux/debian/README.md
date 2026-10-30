@@ -1,0 +1,34 @@
+# Mesh Town for Debian and Ubuntu
+
+The apt repository of [Mesh Town](https://github.com/mesh-town/meshtown) for amd64 and arm64, served from
+https://mesh-town.github.io/meshtown-dist/linux/debian (suite `stable`, component `main`). The package `meshtown`
+(0.3.225 at the last publication) installs `/usr/bin/meshtown`, a systemd unit and the apt source with the signing key,
+so later versions arrive with `apt upgrade`.
+
+## Install
+
+    wget https://mesh-town.github.io/meshtown-dist/linux/debian/meshtown_amd64.deb
+    sudo apt install ./meshtown_amd64.deb
+
+Use `meshtown_arm64.deb` on arm64. Then `sudo apt update && sudo apt upgrade` keeps it current.
+
+The service `meshtown` is installed but not enabled; on a server start it with `sudo systemctl enable --now meshtown`
+(settings: `/etc/meshtown/config.json`). On a desktop with the tray icon do not enable it: two nodes on one machine share
+their ports. `apt purge` keeps `/etc/meshtown/`.
+
+Check a download against `SHA256SUMS` (`sha256sum -c SHA256SUMS --ignore-missing`) before installing it.
+
+## Versions
+
+| File | Link |
+|---|---|
+| `meshtown_amd64.deb` (latest) | https://mesh-town.github.io/meshtown-dist/linux/debian/meshtown_amd64.deb |
+| `meshtown_arm64.deb` (latest) | https://mesh-town.github.io/meshtown-dist/linux/debian/meshtown_arm64.deb |
+| `meshtown_0.3.225_amd64.deb` | https://mesh-town.github.io/meshtown-dist/linux/debian/pool/main/m/meshtown/meshtown_0.3.225_amd64.deb |
+| `meshtown_0.3.195_amd64.deb` | https://mesh-town.github.io/meshtown-dist/linux/debian/pool/main/m/meshtown/meshtown_0.3.195_amd64.deb |
+| `meshtown_0.3.191_amd64.deb` | https://mesh-town.github.io/meshtown-dist/linux/debian/pool/main/m/meshtown/meshtown_0.3.191_amd64.deb |
+| `meshtown_0.3.187_amd64.deb` | https://mesh-town.github.io/meshtown-dist/linux/debian/pool/main/m/meshtown/meshtown_0.3.187_amd64.deb |
+| `meshtown_0.3.225_arm64.deb` | https://mesh-town.github.io/meshtown-dist/linux/debian/pool/main/m/meshtown/meshtown_0.3.225_arm64.deb |
+| `meshtown_0.3.195_arm64.deb` | https://mesh-town.github.io/meshtown-dist/linux/debian/pool/main/m/meshtown/meshtown_0.3.195_arm64.deb |
+| `meshtown_0.3.191_arm64.deb` | https://mesh-town.github.io/meshtown-dist/linux/debian/pool/main/m/meshtown/meshtown_0.3.191_arm64.deb |
+| `meshtown_0.3.187_arm64.deb` | https://mesh-town.github.io/meshtown-dist/linux/debian/pool/main/m/meshtown/meshtown_0.3.187_arm64.deb |

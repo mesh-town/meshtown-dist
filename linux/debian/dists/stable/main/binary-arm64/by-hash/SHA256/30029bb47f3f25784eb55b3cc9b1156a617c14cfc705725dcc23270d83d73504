@@ -1,0 +1,55 @@
+Package: meshtown
+Version: 0.3.178
+Architecture: arm64
+Maintainer: Mesh Town <340663027+mesh-town@users.noreply.github.com>
+Installed-Size: 7603
+Section: net
+Priority: optional
+Homepage: https://github.com/mesh-town/meshtown-dist
+Filename: pool/main/m/meshtown/meshtown_0.3.178_arm64.deb
+Size: 4297826
+SHA256: 6bc47326ec3473fc1d494440c70c30693579a4b248336e0a5a5ae7ef680162e7
+Description: private mesh network node
+ Mesh Town connects your devices into one private network.
+
+Package: meshtown
+Version: 0.3.187
+Architecture: arm64
+Maintainer: Mesh Town <340663027+mesh-town@users.noreply.github.com>
+Installed-Size: 7607
+Section: net
+Priority: optional
+Homepage: https://github.com/mesh-town/meshtown-dist
+Filename: pool/main/m/meshtown/meshtown_0.3.187_arm64.deb
+Size: 4303736
+SHA256: f07d2fab00f2bcc4dd83fd5f287f78fc563052871e9521d1aaea47c6613bb597
+Description: private mesh network node
+ Mesh Town connects your devices into one private network.
+
+Package: meshtown
+Version: 0.3.191
+Architecture: arm64
+Maintainer: Mesh Town <340663027+mesh-town@users.noreply.github.com>
+Installed-Size: 7607
+Section: net
+Priority: optional
+Homepage: https://github.com/mesh-town/meshtown-dist
+Filename: pool/main/m/meshtown/meshtown_0.3.191_arm64.deb
+Size: 4305426
+SHA256: aa6a1a94eaa3ce285a8a37e5a3aa771dcf7254057f029052b06af340ad35b551
+Description: private mesh network node
+ Mesh Town connects your devices into one private network.
+
+Package: meshtown
+Version: 0.3.195
+Architecture: arm64
+Maintainer: Mesh Town <340663027+mesh-town@users.noreply.github.com>
+Installed-Size: 7611
+Section: net
+Priority: optional
+Homepage: https://github.com/mesh-town/meshtown-dist
+Filename: pool/main/m/meshtown/meshtown_0.3.195_arm64.deb
+Size: 4305598
+SHA256: d7480e8a4cd9c57d7bd410c7fad18cd1a58bd96d52e1c1aa4af77ce5643410bf
+Description: private mesh network node
+ Mesh Town connects your devices into one private network.

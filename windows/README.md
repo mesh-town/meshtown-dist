@@ -1,0 +1,19 @@
+# Mesh Town for Windows
+
+Builds of [Mesh Town](https://github.com/mesh-town/meshtown) for Windows (x86_64): `meshtown.exe` (with the tray icon)
+and `meshtown-cli.exe` (console only). The files without a version are the latest version (0.3.225 at the last
+publication). Earlier versions are attached to the [releases](https://github.com/mesh-town/meshtown-dist/releases) of this repository.
+
+## Install
+
+The builds are not signed, so Windows SmartScreen asks for confirmation on the first start: choose "More info", then
+"Run anyway". Run only one of the two builds at a time: they share their settings.
+
+Check the download against `SHA256SUMS` before running it.
+
+## Files
+
+| File | Link |
+|---|---|
+| `meshtown-cli.exe` | https://github.com/mesh-town/meshtown-dist/raw/main/windows/meshtown-cli.exe |
+| `meshtown.exe` | https://github.com/mesh-town/meshtown-dist/raw/main/windows/meshtown.exe |

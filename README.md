@@ -1,0 +1,34 @@
+# Mesh Town builds
+
+**[Mesh Town](https://mesh-town.github.io/)** — reach your home server, NAS or office PC from anywhere: no port
+forwarding, no central server, no accounts.
+
+Mesh Town links your own computers, phones and routers directly to each other, so you can open a NAS web
+panel, SSH into a home server or connect to a work PC by remote desktop from any network. Free and open source, for
+macOS, Windows, Linux, Android and OpenWrt or Keenetic routers. Website:
+[mesh-town.github.io](https://mesh-town.github.io/) · source and documentation:
+[mesh-town/meshtown](https://github.com/mesh-town/meshtown).
+
+Builds of [Mesh Town](https://github.com/mesh-town/meshtown) for every system. The files without a version in the
+name are always the latest version (0.3.225 at the last publication).
+Earlier versions are attached to the [releases](https://github.com/mesh-town/meshtown-dist/releases) of this repository.
+
+| System | Download |
+|---|---|
+| macOS, Apple silicon | https://github.com/mesh-town/meshtown-dist/raw/main/macos/MeshTown-macos-arm64.zip |
+| macOS, Intel | https://github.com/mesh-town/meshtown-dist/raw/main/macos/MeshTown-macos-x86_64.zip |
+| Windows, with the tray icon | https://github.com/mesh-town/meshtown-dist/raw/main/windows/meshtown.exe |
+| Windows, console only | https://github.com/mesh-town/meshtown-dist/raw/main/windows/meshtown-cli.exe |
+| Linux, x86_64 | https://github.com/mesh-town/meshtown-dist/raw/main/linux/meshtown-linux-x86_64.tar.gz |
+| Linux, aarch64 | https://github.com/mesh-town/meshtown-dist/raw/main/linux/meshtown-linux-aarch64.tar.gz |
+| Linux, x86_64, console only | https://github.com/mesh-town/meshtown-dist/raw/main/linux/meshtown-cli-linux-x86_64.tar.gz |
+| Linux, aarch64, console only | https://github.com/mesh-town/meshtown-dist/raw/main/linux/meshtown-cli-linux-aarch64.tar.gz |
+| Debian, Ubuntu (apt) | https://mesh-town.github.io/meshtown-dist/linux/debian/meshtown_amd64.deb (`meshtown_arm64.deb` on arm64), then `sudo apt install ./meshtown_amd64.deb` |
+| Android | https://github.com/mesh-town/meshtown-dist/raw/main/android/meshtown.apk |
+| Routers (OpenWrt) | `wget -O- https://mesh-town.github.io/meshtown-openwrt/install.sh \| sh`, run on the router as root |
+| Keenetic routers (Entware) | `wget -O- https://mesh-town.github.io/meshtown-keenetic/install.sh \| sh`, run on the router over SSH |
+| Homebrew (macOS) | `brew install mesh-town/macos/meshtown` |
+
+Other builds (armv7, MIPS) are attached to the [releases](https://github.com/mesh-town/meshtown-dist/releases) of this
+repository. Every folder has a `SHA256SUMS` file and a README with the install notes and the file list. The
+source code and the build workflows are in the [main repository](https://github.com/mesh-town/meshtown).
